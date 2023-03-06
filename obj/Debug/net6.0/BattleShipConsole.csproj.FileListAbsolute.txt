@@ -1,0 +1,15 @@
+C:\Program Files (x86)\Programming\Repos\PersonalProjects\BattleShipConsole\obj\Debug\net6.0\BattleShipConsole.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Programming\Repos\PersonalProjects\BattleShipConsole\obj\Debug\net6.0\BattleShipConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\Programming\Repos\PersonalProjects\BattleShipConsole\obj\Debug\net6.0\BattleShipConsole.AssemblyInfoInputs.cache
+C:\Program Files (x86)\Programming\Repos\PersonalProjects\BattleShipConsole\obj\Debug\net6.0\BattleShipConsole.AssemblyInfo.cs
+C:\Program Files (x86)\Programming\Repos\PersonalProjects\BattleShipConsole\obj\Debug\net6.0\BattleShipConsole.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Programming\Repos\PersonalProjects\BattleShipConsole\bin\Debug\net6.0\BattleShipConsole.exe
+C:\Program Files (x86)\Programming\Repos\PersonalProjects\BattleShipConsole\bin\Debug\net6.0\BattleShipConsole.deps.json
+C:\Program Files (x86)\Programming\Repos\PersonalProjects\BattleShipConsole\bin\Debug\net6.0\BattleShipConsole.runtimeconfig.json
+C:\Program Files (x86)\Programming\Repos\PersonalProjects\BattleShipConsole\bin\Debug\net6.0\BattleShipConsole.dll
+C:\Program Files (x86)\Programming\Repos\PersonalProjects\BattleShipConsole\bin\Debug\net6.0\BattleShipConsole.pdb
+C:\Program Files (x86)\Programming\Repos\PersonalProjects\BattleShipConsole\obj\Debug\net6.0\BattleShipConsole.dll
+C:\Program Files (x86)\Programming\Repos\PersonalProjects\BattleShipConsole\obj\Debug\net6.0\refint\BattleShipConsole.dll
+C:\Program Files (x86)\Programming\Repos\PersonalProjects\BattleShipConsole\obj\Debug\net6.0\BattleShipConsole.pdb
+C:\Program Files (x86)\Programming\Repos\PersonalProjects\BattleShipConsole\obj\Debug\net6.0\BattleShipConsole.genruntimeconfig.cache
+C:\Program Files (x86)\Programming\Repos\PersonalProjects\BattleShipConsole\obj\Debug\net6.0\ref\BattleShipConsole.dll
