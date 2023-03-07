@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Welcome to BATTLESHIP. Place your ships well and fire at will!");
 
 Game.Battleship Ship = new();
 
@@ -9,4 +9,5 @@ char[,] board = new char[8,8];
 //Ship.DisplayInts(ints);
 
 Ship.AssignBoard(board);
+
 

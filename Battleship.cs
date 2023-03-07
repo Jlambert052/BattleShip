@@ -30,6 +30,7 @@ namespace Game {
                 }
                 System.Console.WriteLine();
             }
+            System.Console.WriteLine("Here's your board. Place your ships carefully.");
         }
 
         //public int BattleShip(int[,] field) {
