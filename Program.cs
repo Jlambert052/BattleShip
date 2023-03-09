@@ -8,6 +8,6 @@ char[,] board = new char[8,8];
 
 //Ship.DisplayInts(ints);
 
-Ship.AssignBoard(board);
+Ship.SetupBoard(board);
 
 
