@@ -5,9 +5,15 @@ Game.Battleship Ship = new();
 
 int[,] ints = new int[8,5] { {1, 2, 3, 4, 5}, {2, 3, 4, 5, 6}, {3, 4, 5, 6, 7}, {4, 5, 6, 7, 8}, {5, 6, 7, 8, 9}, {6, 7, 8, 9, 10}, {7, 8, 9, 10, 11}, {8, 9, 10, 11, 12} };
 char[,] board = new char[9,9];
+        char[] columnNames = new char[] {'+', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'};
+        char[] rowNames = new char[] {'+', '1', '2', '3', '4', '5', '6', '7', '8'};
 
 //Ship.DisplayInts(ints);
 
 Ship.SetupBoard(board);
+
+Ship.BoardCoord(columnNames, rowNames);
+
+Ship.PlaceShip();
 
 
