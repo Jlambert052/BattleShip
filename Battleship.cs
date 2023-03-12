@@ -77,6 +77,7 @@ namespace Game {
 
             var Ships = new [] {"tug","battleship","crusier","carrier"};
             bool Entry = true;
+            bool Placed = true;
             System.Console.WriteLine("Which ship would you like to place?");
             System.Console.WriteLine("Enter 'tug' (2 squares), 'battleship' (3 squares), 'cruiser' (4 squares), or 'carrier' (5 squares) ");
             string playerEntry = Console.ReadLine();
@@ -92,6 +93,10 @@ namespace Game {
                 if(playerEntry.Contains(Ships[0]) || playerEntry.Contains(Ships[1]) || playerEntry.Contains(Ships[2]) || playerEntry.Contains(Ships[3]) ) {
                 Entry = false;
                 }
+            }
+            while(Placed) {
+                System.Console.WriteLine("This ship has already been placed; choose a different ship");
+                
             }
             System.Console.WriteLine("Where would you like to place this ship? Enter the first square the ship occupies. Rows are A-H; Columns are 1-8. Example => A1");
             string playerPlace = Console.ReadLine();
