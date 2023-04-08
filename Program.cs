@@ -8,12 +8,17 @@ char[,] board = new char[9,9];
         char[] columnNames = new char[] {'+', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'};
         char[] rowNames = new char[] {'+', '1', '2', '3', '4', '5', '6', '7', '8'};
 
+List<int> List = new List<int> {1, 2, 3, 6, 9, 15, 20, 23, 27, 30, 100};
+
 //Ship.DisplayInts(ints);
 
-Ship.SetupBoard(board);
+//Ship.SetupBoard(board);
 
-Ship.BoardCoord(columnNames, rowNames);
+//Ship.BoardCoord(columnNames, rowNames);
 
-Ship.PlaceShip();
+//Ship.PlaceShip();
 
 
+Game.FB FizzBuzz = new(); 
+
+FizzBuzz.FizzBuzz(List);

@@ -1,3 +1,4 @@
+
 namespace Game {
     public class Battleship {
         char water = '~';
@@ -75,27 +76,51 @@ namespace Game {
         //function to request the player to place a ship in the board; stating the sizes of each ship. 
         public void PlaceShip() { 
 
-            var Ships = new [] {"tug","battleship","crusier","carrier"};
+            Ship tug = new Ship("tug", false, false);
+            Ship battleship = new Ship("battleship", false, false);
+            Ship cruiser = new Ship("crusier", false, false);
+            Ship carrier = new Ship("carrier", false, false);
             bool Entry = true;
-            bool Placed = true;
+            bool notPlaced = true;
+            
             System.Console.WriteLine("Which ship would you like to place?");
             System.Console.WriteLine("Enter 'tug' (2 squares), 'battleship' (3 squares), 'cruiser' (4 squares), or 'carrier' (5 squares) ");
             string playerEntry = Console.ReadLine();
             playerEntry.ToLower();
-            if(playerEntry.Contains(Ships[0]) || playerEntry.Contains(Ships[1]) || playerEntry.Contains(Ships[2]) || playerEntry.Contains(Ships[3]) ) {
+            if(playerEntry.Contains(tug.Name) || playerEntry.Contains(battleship.Name) || playerEntry.Contains(cruiser.Name) || playerEntry.Contains(carrier.Name) ) {
                 Entry = false;
             }
             //while loop to make sure that they use a functional ship name. 
             while(Entry) {
                 
                 System.Console.WriteLine("That is not a valid ship! Re-enter your selection; 'tug', 'battleship', 'cruiser' or 'carrier'");
+                playerEntry = Console.ReadLine();
                 playerEntry.ToLower();
-                if(playerEntry.Contains(Ships[0]) || playerEntry.Contains(Ships[1]) || playerEntry.Contains(Ships[2]) || playerEntry.Contains(Ships[3]) ) {
+                if(playerEntry.Contains(tug.Name) || playerEntry.Contains(battleship.Name) || playerEntry.Contains(cruiser.Name) || playerEntry.Contains(carrier.Name) ) {
                 Entry = false;
                 }
             }
-            while(Placed) {
+            switch (playerEntry) {
+                case "tug":
+                    var thisShip = tug;
+                    break;
+                case "battleship":
+                    thisShip = battleship;
+                    break;
+                case "cruiser":
+                    thisShip = cruiser;
+                    break;
+                case "carrier":
+                    thisShip = carrier;
+                    break;
+            }
+            
+            //while loop to make sure the ship has not been placed
+            while(notPlaced) {
                 System.Console.WriteLine("This ship has already been placed; choose a different ship");
+                playerEntry = Console.ReadLine();
+                playerEntry.ToLower();
+                if(playerEntry.Contains(tug.Name) || playerEntry.Contains(battleship.Name) || playerEntry.Contains(cruiser.Name) || playerEntry.Contains(carrier.Name) ) {
                 
             }
             System.Console.WriteLine("Where would you like to place this ship? Enter the first square the ship occupies. Rows are A-H; Columns are 1-8. Example => A1");
@@ -106,12 +131,13 @@ namespace Game {
 
         }
         //repeatable function to make sure that the ships are placed in an eligible location.
-        public void CheckPlacedShips(char[,] board) {
+            public void CheckPlacedShips(char[,] board) {
 
-        }
+            }
 
         //public int BattleShip(int[,] field) {
             
         //}
+        }
     }
 }
